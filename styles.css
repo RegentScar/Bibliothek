@@ -1,0 +1,192 @@
+/* Allgemeine Stile für den Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    background-color: blue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .logo {
+    margin-right: auto;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(150, 150, 255);
+}
+
+.logo img {
+    height: 40px;
+    filter: invert(100%);
+}
+
+/* Hauptinhalt */
+main {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: -5px;
+}
+
+/* Button-Stile */
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 200);
+}
+
+/* Buchliste */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.book-item {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Formularstile */
+form {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: rgb(0, 0, 200);
+}
+
+/* Such- und Sortieroptionen */
+.search-sort {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-sort select {
+    width: 120px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 400px;
+}
+
+/* Paginierung */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pagination a {
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: lightgray;
+}
+
+.pagination span {
+    font-weight: bold;
+}
