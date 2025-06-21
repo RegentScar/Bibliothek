@@ -1,4 +1,4 @@
-# Bibliotheksverwaltungssystem in PHP
+# Bibliotheksverwaltung in PHP
 
 Dieses Projekt ist ein webbasiertes Bibliotheksverwaltungssystem, entwickelt in PHP mit einer MySQL-Datenbank. Es ermöglicht die Verwaltung von Büchern und Kunden sowie die Administration von Benutzerkonten. Das System bietet Funktionen für Administratoren, um Bücher und Kunden hinzuzufügen, zu bearbeiten und zu löschen, sowie eine öffentliche Ansicht der Bibliotheksbestände. Benutzer können sich einloggen, um erweiterte Funktionen zu nutzen, wie z.B. die Verwaltung von Büchern oder das Ändern ihres Passworts.
 
